@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C4A1E0D76C6BE1992585A90 /* Pods_HueLights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B83481B474415FF32047122 /* Pods_HueLights.framework */; };
 		F90E7C3120EE123C00402FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C3020EE123C00402FB7 /* AppDelegate.swift */; };
 		F90E7C3320EE123C00402FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C3220EE123C00402FB7 /* ViewController.swift */; };
 		F90E7C3620EE123C00402FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E7C3420EE123C00402FB7 /* Main.storyboard */; };
 		F90E7C3920EE123C00402FB7 /* HueLights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C3720EE123C00402FB7 /* HueLights.xcdatamodeld */; };
 		F90E7C3B20EE123D00402FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90E7C3A20EE123D00402FB7 /* Assets.xcassets */; };
 		F90E7C3E20EE123D00402FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90E7C3C20EE123D00402FB7 /* LaunchScreen.storyboard */; };
+		F90E7C4720EE19CD00402FB7 /* BridgeAccessConfigPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C4620EE19CD00402FB7 /* BridgeAccessConfigPresentationViewController.swift */; };
+		F90E7C4920EE19F100402FB7 /* BridgePushLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C4820EE19F100402FB7 /* BridgePushLinkViewController.swift */; };
+		F90E7C4D20EE1A2400402FB7 /* BridgeSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C4C20EE1A2400402FB7 /* BridgeSelectionTableViewController.swift */; };
+		F90E7C4F20EE1A3A00402FB7 /* CreateBridgeAccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C4E20EE1A3A00402FB7 /* CreateBridgeAccessController.swift */; };
+		F90E7C5120EE1B0E00402FB7 /* UITableViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C5020EE1B0E00402FB7 /* UITableViewController+Extensions.swift */; };
+		F90E7C5320EE395C00402FB7 /* VideoFrameExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E7C5220EE395C00402FB7 /* VideoFrameExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B83481B474415FF32047122 /* Pods_HueLights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HueLights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E0F91763BB1DF854628FB3 /* Pods-HueLights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueLights.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HueLights/Pods-HueLights.debug.xcconfig"; sourceTree = "<group>"; };
+		D944E4F9A9CA263D515DCDE2 /* Pods-HueLights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueLights.release.xcconfig"; path = "Pods/Target Support Files/Pods-HueLights/Pods-HueLights.release.xcconfig"; sourceTree = "<group>"; };
 		F90E7C2D20EE123C00402FB7 /* HueLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90E7C3020EE123C00402FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F90E7C3220EE123C00402FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		F90E7C3A20EE123D00402FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90E7C3D20EE123D00402FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90E7C3F20EE123D00402FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90E7C4620EE19CD00402FB7 /* BridgeAccessConfigPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeAccessConfigPresentationViewController.swift; sourceTree = "<group>"; };
+		F90E7C4820EE19F100402FB7 /* BridgePushLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePushLinkViewController.swift; sourceTree = "<group>"; };
+		F90E7C4C20EE1A2400402FB7 /* BridgeSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeSelectionTableViewController.swift; sourceTree = "<group>"; };
+		F90E7C4E20EE1A3A00402FB7 /* CreateBridgeAccessController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBridgeAccessController.swift; sourceTree = "<group>"; };
+		F90E7C5020EE1B0E00402FB7 /* UITableViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F90E7C5220EE395C00402FB7 /* VideoFrameExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFrameExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C4A1E0D76C6BE1992585A90 /* Pods_HueLights.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8540EB8152877B6DD724B2F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E0F91763BB1DF854628FB3 /* Pods-HueLights.debug.xcconfig */,
+				D944E4F9A9CA263D515DCDE2 /* Pods-HueLights.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5FAFC5090E64ECB98F93135 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B83481B474415FF32047122 /* Pods_HueLights.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F90E7C2420EE123C00402FB7 = {
 			isa = PBXGroup;
 			children = (
 				F90E7C2F20EE123C00402FB7 /* HueLights */,
 				F90E7C2E20EE123C00402FB7 /* Products */,
+				8540EB8152877B6DD724B2F0 /* Pods */,
+				C5FAFC5090E64ECB98F93135 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +99,12 @@
 				F90E7C3C20EE123D00402FB7 /* LaunchScreen.storyboard */,
 				F90E7C3F20EE123D00402FB7 /* Info.plist */,
 				F90E7C3720EE123C00402FB7 /* HueLights.xcdatamodeld */,
+				F90E7C4620EE19CD00402FB7 /* BridgeAccessConfigPresentationViewController.swift */,
+				F90E7C4820EE19F100402FB7 /* BridgePushLinkViewController.swift */,
+				F90E7C4C20EE1A2400402FB7 /* BridgeSelectionTableViewController.swift */,
+				F90E7C4E20EE1A3A00402FB7 /* CreateBridgeAccessController.swift */,
+				F90E7C5020EE1B0E00402FB7 /* UITableViewController+Extensions.swift */,
+				F90E7C5220EE395C00402FB7 /* VideoFrameExtractor.swift */,
 			);
 			path = HueLights;
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F90E7C4220EE123D00402FB7 /* Build configuration list for PBXNativeTarget "HueLights" */;
 			buildPhases = (
+				1E0ADA20576748CF0FD018A8 /* [CP] Check Pods Manifest.lock */,
 				F90E7C2920EE123C00402FB7 /* Sources */,
 				F90E7C2A20EE123C00402FB7 /* Frameworks */,
 				F90E7C2B20EE123C00402FB7 /* Resources */,
+				79D51C4391AFE18820D1CEA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +177,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E0ADA20576748CF0FD018A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HueLights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D51C4391AFE18820D1CEA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HueLights/Pods-HueLights-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyHue/SwiftyHue.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyHue.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HueLights/Pods-HueLights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F90E7C2920EE123C00402FB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F90E7C3320EE123C00402FB7 /* ViewController.swift in Sources */,
+				F90E7C4720EE19CD00402FB7 /* BridgeAccessConfigPresentationViewController.swift in Sources */,
+				F90E7C4D20EE1A2400402FB7 /* BridgeSelectionTableViewController.swift in Sources */,
 				F90E7C3120EE123C00402FB7 /* AppDelegate.swift in Sources */,
+				F90E7C5120EE1B0E00402FB7 /* UITableViewController+Extensions.swift in Sources */,
+				F90E7C4F20EE1A3A00402FB7 /* CreateBridgeAccessController.swift in Sources */,
+				F90E7C5320EE395C00402FB7 /* VideoFrameExtractor.swift in Sources */,
 				F90E7C3920EE123C00402FB7 /* HueLights.xcdatamodeld in Sources */,
+				F90E7C4920EE19F100402FB7 /* BridgePushLinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +377,7 @@
 		};
 		F90E7C4320EE123D00402FB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E0F91763BB1DF854628FB3 /* Pods-HueLights.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +396,7 @@
 		};
 		F90E7C4420EE123D00402FB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D944E4F9A9CA263D515DCDE2 /* Pods-HueLights.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

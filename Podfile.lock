@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AudioKit (4.3):
+    - AudioKit/UI (= 4.3)
+  - AudioKit/UI (4.3)
+  - CocoaAsyncSocket (7.6.2)
+  - Gloss (2.0.0)
+  - SwiftyHue (0.4.1):
+    - SwiftyHue/Base (= 0.4.1)
+    - SwiftyHue/BridgeServices (= 0.4.1)
+  - SwiftyHue/Base (0.4.1):
+    - Alamofire (= 4.5.1)
+    - Gloss (= 2.0.0)
+  - SwiftyHue/BridgeServices (0.4.1):
+    - Alamofire (= 4.5.1)
+    - CocoaAsyncSocket (= 7.6.2)
+    - Gloss (= 2.0.0)
+
+DEPENDENCIES:
+  - AudioKit (~> 4.0)
+  - SwiftyHue (= 0.4.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AudioKit
+    - CocoaAsyncSocket
+    - Gloss
+    - SwiftyHue
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AudioKit: 95bd2427c1afa7954d71b0c6195a09b87b7448bc
+  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
+  Gloss: b67617f327406adfd47adf20172d00680a3a31bd
+  SwiftyHue: 9dfa91b75ec025c15c3e1078ce195a7b1a8d48aa
+
+PODFILE CHECKSUM: 59157bad0fc705bda346e6a5ecce48ccc4bba9b2
+
+COCOAPODS: 1.5.3
